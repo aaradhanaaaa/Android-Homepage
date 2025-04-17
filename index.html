@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Phone Home Page</title>
+        <link rel = "stylesheet" href="style1.css">
+        <script src="script1.js" defer></script>
+    </head>
+    
+    <body>
+        <div class="phone-screen">
+            <div class="time-container">
+                <p id="clock">00:00:00</p>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search Google...">
+                <button onclick="searchGoogle()">🔍</button>
+            </div>
+    
+            <div class="app-grid">
+                <div class="app-icon">📀</div>
+                <div class="app-icon">📹</div>
+                <div class="app-icon">🎵</div>
+                <div class="app-icon">💬</div>
+                <div class="app-icon">⚙️</div>
+                <div class="app-icon">🌐</div>
+            </div>
+
+            <div class="status-bar">
+                <div class="battery">
+                    🔋 <span id="battery-level">100%</span>
+                </div>
+            </div>
+
+             <!-- Bottom Navigation -->
+            <div class="bottom-nav">
+                <button onclick="goBack()">⬅️ </button>
+                <button onclick="goHome()">🏠 </button>
+                <button onclick="openSettings()">⚙️ </button>
+            </div>
+        </div>
+    </body>
+    
+</html>

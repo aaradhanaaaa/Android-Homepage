@@ -1,0 +1,129 @@
+.phone-screen {
+    width: 320px; /* Adjust for phone size */
+    height: 600px; /* Adjust for phone size */
+    background-color: #333;
+    border-radius: 40px; /* Rounded corners like a phone */
+    border: 8px solid black; /* Outer phone border */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.time-container {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+.search-bar {
+    width: 80%;
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 200px; /* Add space below the timer */
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+   
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    border: none;
+    
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+
+.app-icon {
+    font-size: 30px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-top: 80px;
+}
+
+
+
+.home {
+    background: black;
+    color: white;
+}
+
+.status-bar {
+    position: absolute;
+    width: 100%;
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    
+}
+ 
+.battery {
+    display: flex;
+    align-items: center;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b0303;
+    padding: 10px;
+    border-radius: 0 0 40px 40px;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+button {
+    padding: 10px 35px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7e8b7f;
+}
+
+
+
