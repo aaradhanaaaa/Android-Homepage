@@ -53,8 +53,6 @@
     padding: 5px;
 }
 
-
-
 .app-icon {
     font-size: 30px;
     background: white;
@@ -70,15 +68,12 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-
 .app-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding-top: 80px;
 }
-
-
 
 .home {
     background: black;
@@ -91,7 +86,6 @@
     padding: 5px 15px;
     color: white;
     font-size: 20px;
-    
 }
  
 .battery {
@@ -99,7 +93,6 @@
     align-items: center;
 }
 
-/* Bottom Navigation */
 .bottom-nav {
     display: flex;
     justify-content: space-around;
