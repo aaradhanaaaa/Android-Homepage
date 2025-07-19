@@ -35,11 +35,5 @@ A visually styled and interactive simulation of an Android phone home screen. Th
 
 ---   
 
-📂 Project Structure
 
-📁 android-homepage/
-├── index.html         # Main HTML layout
-├── style1.css         # Custom styling
-├── script1.js         # App logic & interactions
-└── README.md          # Project documentation
 
